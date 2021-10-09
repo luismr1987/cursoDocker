@@ -37,5 +37,11 @@ pipeline {
       }
     }
 
+    stage('hub') {
+      steps {
+        sh './scripts/upload_hub.sh'
+      }
+    }
+
   }
 }
