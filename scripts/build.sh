@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t lamendozar/api_cdk_sep:$1 .
+docker build -t luismr1987/api_cdk_sep:$1 .
