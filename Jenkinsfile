@@ -4,7 +4,7 @@ pipeline {
     stage('inicio_env') {
       steps {
         sh 'env'
-        echo 'iniciando construcción'
+        echo 'iniciando construcciÃ³n'
       }
     }
 
@@ -18,7 +18,7 @@ pipeline {
 
         stage('Image Docker') {
           steps {
-            sh 'docker images'
+            sh 'sudo docker images'
           }
         }
 
