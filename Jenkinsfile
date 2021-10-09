@@ -31,5 +31,11 @@ pipeline {
       }
     }
 
+    stage('docker') {
+      steps {
+        sh './scripts/run.sh'
+      }
+    }
+
   }
 }
